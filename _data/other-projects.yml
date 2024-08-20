@@ -1,0 +1,23 @@
+- name: Surf Videos
+  url: 
+  code: 
+  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+  used:
+    - thing: JavaScript
+    - thing: React
+
+
+- name: Weather Widget
+  url: 
+  code: 
+  description: A simple weather app.
+  img: weather
+  used:
+    - thing: JavaScript
+    - thing: CSS
+    - thing: Node.js
+    - thing: OpenWeatherMap API
+    - thing: Google Maps API
+
+
+

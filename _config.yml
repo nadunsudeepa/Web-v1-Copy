@@ -1,0 +1,27 @@
+# Site settings
+name: Nadun Sudeepa
+title: Nadun Sudeepa | Front End Software Engineering Student
+description: Design-minded front-end software engineering student, focused on building beautiful interfaces and experiences
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

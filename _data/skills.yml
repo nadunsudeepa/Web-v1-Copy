@@ -1,0 +1,26 @@
+languages:
+  - item: JavaScript
+  - item: HTML
+  - item: CSS/Sass
+  - item: Java    
+  - item: MySql
+
+frameworks:
+  - item: Bootstrap
+  - item: React
+  - item: Jekyll
+  - item: Node
+  - item: Wordpress
+
+tools:
+  - item: Git & Github
+  - item: Chrome DevTools
+  - item: Postman
+  - item: MongoDB
+
+design:
+  - item: Photoshop
+  - item: Figma
+  - item: Prototyping
+  - item: Wireframing
+  - item: User Testing

@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3.3"
+gem "jekyll-minifier"
+gem "jekyll-sitemap"
+# Add any other gems your project needs
