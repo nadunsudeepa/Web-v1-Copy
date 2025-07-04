@@ -5,52 +5,32 @@
   position: absolute;
   top: 20px;
   right: 30px;
-
   @include mobile {
     top: 10px;
     right: 20px;
   }
-
-  .avatar {
-    margin-right: 10px;
-
-    img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid #ccc; // optional: adds a border
-    }
-  }
-
   .sun, .moon {
     width: 17px;
     height: 17px;
   }
-
   .sun {
     background: url('../img/switch/sun.svg') no-repeat center;
     background-size: 100%;
   }
-
   .moon {
     background: url('../img/switch/moon.svg') no-repeat center;
     background-size: 100%;
   }
-
   .toggle-wrapper {
     margin: 10px;
-
     #switch {
       height: 0;
       width: 0;
       visibility: hidden;
       position: absolute;
-
       &:checked + label {
         background: $green;
       }
-
       &:checked + label:after {
         left: calc(100% - 3px);
         transform: translateX(-100%);
@@ -66,7 +46,6 @@
       display: block;
       border-radius: 100px;
       position: relative;
-
       &:after {
         @include transition;
         content: '';
